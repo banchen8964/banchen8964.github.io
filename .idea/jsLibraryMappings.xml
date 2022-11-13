@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{analytics, bootstrap, custom, font-awesome, imgfix, jquery-2.1.0, jquery.counterup, owl-carousel, popper, scrollreveal, waypoints}" />
+    <file url="PROJECT" libraries="{analytics, bootstrap, custom, font-awesome, imgfix, jquery-2.1.0, jquery.counterup, owl-carousel, plugins, popper, scrollreveal, style, theme, waypoints}" />
   </component>
 </project>
