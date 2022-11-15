@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.fdb-block{
+  font-family:Roboto, sans-serif;
+  font-size:0;
+  line-height:1.5;
+  text-rendering:optimizelegibility;
+  padding: 100px 0;
+  color:rgb(68, 68, 68);
+  position:relative;
+  background-size:cover;
+  background-position-x:center;
+  background-position-y:center;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  background-color:rgb(255, 255, 255);
+}
+.text-center{
+  text-align:center;
+}
+.fdb-block img{
+  border-radius: 4px;
+}
+.fdb-block .fdb-touch{
+  border-top-width:5px;
+  border-top-style:solid;
+  border-top-color:rgb(82, 139, 255);
+}
+.fdb-block .fdb-box{
+  background-image:initial;
+  background-position-x:initial;
+  background-position-y:initial;
+  background-size:initial;
+  background-repeat-x:initial;
+  background-repeat-y:initial;
+  background-attachment:initial;
+  background-origin:initial;
+  background-clip:initial;
+  background-color:rgb(255, 255, 255);
+  color:rgb(68, 68, 68);
+  padding: 60px 40px;
+  border-radius: 4px;
+  box-shadow:rgba(0, 0, 0, 0.12) 0 1px 3px, rgba(0, 0, 0, 0.24) 0 1px 2px;
+  overflow-x:hidden;
+  overflow-y:hidden;
+}
+.fdb-block h1{
+  font-size:1.75rem;
+  margin-bottom:0.5em;
+  margin-top:0.3em;
+  font-weight:400;
+}
+.fdb-block .text-h3, .fdb-block h3{
+  font-size:0.875rem;
+  margin-bottom:0.5em;
+  margin-top:0.3em;
+  font-weight:400;
+}
+.fdb-block img + h1, .fdb-block img + h2{
+  margin-top:40px;
+}
+a{
+  color:rgb(0, 123, 255);
+  text-decoration-line:none;
+  text-decoration-thickness:initial;
+  text-decoration-style:initial;
+  text-decoration-color:initial;
+  background-color:transparent;
+}
+a:hover{
+  color:rgb(0, 86, 179);
+  text-decoration-line:underline;
+  text-decoration-thickness:initial;
+  text-decoration-style:initial;
+  text-decoration-color:initial;
+}
+.il-otf{
+  color:rgb(74, 74, 74);
+  font-size:16px;
+  letter-spacing:1px;
+}
+.inside{
+  color:rgb(74, 74, 74);
+  font-size:16px;
+  letter-spacing:1px;
+  text-align:center;
+}
+.irg0g{
+  padding:10px;
+  text-align:left;
+}
+
