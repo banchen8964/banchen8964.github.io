@@ -1,0 +1,6 @@
+(function() {
+ const messages = JSON.parse("{\"hBhTCw\":\"{0, number}%\",\"mEHEFw\":\"斜体\",\"9IkXrg\":\"{0, number}\",\"M50kBA\":\"上一页\",\"n6fJwQ\":\"项目{0}\",\"OHLWZg\":\"请更新版本\",\"ETcy/w\":\"未找到视频\",\"yLWiZA\":\"Ctrl\",\"60VG2w\":\"关闭\",\"rlYolQ\":\"系列{0}\",\"XoXDGA\":\"请重试。\",\"Yi93JQ\":\"切换静音模式\",\"f9wnUg\":\"生成字幕\",\"+olYfw\":\"源文\",\"E1H7vQ\":\"切换至全屏模式 (f)\",\"KObNzg\":\"切换全屏模式\",\"VSJwUw\":\"（在新标签页或窗口中打开）\",\"Lc3NHA\":\"隐藏字幕\",\"9uuK+A\":\"我们现在无法打开Canva可画。请刷新页面，然后重试。\",\"QCLTSw\":\"我们遇到一个问题。\",\"tojkXQ\":\"秒\",\"AeIYbw\":\"没有要显示的数据\",\"l00U7w\":\"标签\",\"j6lVrg\":\"未命名的设计\",\"To2iTw\":\"编辑\",\"tO/NSw\":\"显示字幕\",\"VxF86A\":\"要继续使用Canva可画，请更新至最新版本。\",\"xXWXkw\":\"无法显示图像\",\"/OrXPQ\":\"菜单\",\"su+r1w\":\"搜索栏\",\"teppRw\":\"请选择“标签”列。\",\"2I+oCQ\":\"正在加载\",\"zSuUjw\":\"切换至静音模式 (m)\",\"GnEy7g\":\"第 {0} 页\",\"cSn0vw\":\"播放\",\"5vUp+w\":\"暂停\",\"R/C9Vw\":\"字体大小\",\"ezdcfw\":\"关闭\",\"ph76TQ\":\"未找到图像\",\"d7w5Og\":\"粗体\",\"FIs9Yw\":\"调节音量\",\"LW7DHQ\":\"解除\",\"x7pefA\":\"很抱歉，我们遇到了一些问题\",\"MfH6Iw\":\"对话开始\",\"ZwV4tA\":\"字幕不可用\",\"WMuMxg\":\"下一页\",\"+UXBiA\":\"抱歉，我们无法加载此图表。\",\"xY6udA\":\"我们现在无法打开Canva可画。关闭Canva可画并重试。\"}");
+ const cmsg = window["cmsg"] = window["cmsg"] || {};
+ const strings = cmsg["strings"] = cmsg["strings"] || {};
+ strings["zh-CN"] = strings["zh-CN"] ? Object.assign(strings["zh-CN"], messages) : messages;
+})();
